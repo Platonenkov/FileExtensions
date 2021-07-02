@@ -10,7 +10,6 @@
   <Product>LockFileExtension</Product>
   <Description>check if the file is locked by another program
 get a list of blocking processes</Description>
-  <PackageLicenseFile>README.md</PackageLicenseFile>
   <PackageProjectUrl>https://github.com/Platonenkov/FileExtensions</PackageProjectUrl>
   <PackageIcon>icon.png</PackageIcon>
   <PackageIconUrl />
@@ -20,6 +19,7 @@ get a list of blocking processes</Description>
   <PackageReleaseNotes>check if the file is locked by another program
 get a list of blocking processes</PackageReleaseNotes>
   <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
