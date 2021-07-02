@@ -34,7 +34,7 @@ namespace System.IO
         /// <summary>Получить массив процессов, блокирующих файл</summary>
         /// <param name="file">Файл, который требуется проверить</param>
         /// <returns>Массив процессов, заблокировавших файл</returns>
-        public static Process[] GetLockProcesses([NotNull] this FileSystemInfo file)
+        public static Process[] GetLockProcesses(this FileSystemInfo file)
         {
             if (file is null) throw new ArgumentNullException(nameof(file));
             if (!file.Exists) return Array.Empty<Process>();
@@ -86,7 +86,7 @@ namespace System.IO
         /// <summary>Перечисление процессов, блокирующих файл</summary>
         /// <param name="file">Файл, который требуется проверить</param>
         /// <returns>Перечисление процессов, заблокировавших файл</returns>
-        public static IEnumerable<Process> EnumLockProcesses([NotNull] this FileSystemInfo file)
+        public static IEnumerable<Process> EnumLockProcesses(this FileSystemInfo file)
         {
             if (file is null) throw new ArgumentNullException(nameof(file));
 
