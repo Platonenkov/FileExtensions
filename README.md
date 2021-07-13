@@ -5,7 +5,7 @@
 
 ### Быстрый старт:
 
-`Install-LockFileExtensions -Version 1.1.0`
+`Install-LockFileExtensions -Version 1.1.1`
 
 #### Для проверки блокировки файла
 
