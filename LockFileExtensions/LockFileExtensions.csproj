@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net5.0;netcoreapp3.1;netstandard2.1;net4.6.1-windows;net4.7-windows;net4.8-windows</TargetFrameworks>
+    <TargetFrameworks>net5.0;netcoreapp3.1;netstandard2.1;netstandard2.0;net4.6.1-windows;net4.7-windows;net4.8-windows</TargetFrameworks>
 	  <LangVersion>latest</LangVersion>
 
   <Copyright>https://github.com/Platonenkov</Copyright>
@@ -16,13 +16,10 @@ get a list of blocking processes</Description>
   <RepositoryUrl>https://github.com/Platonenkov/FileExtensions</RepositoryUrl>
   <RepositoryType>GitHub</RepositoryType>
   <PackageTags>lock file extension</PackageTags>
-  <PackageReleaseNotes>check if the file is locked by another program
-get a list of blocking processes</PackageReleaseNotes>
+  <PackageReleaseNotes>check if the file is locked by another program, get a list of blocking processes, netstandard2.0 support</PackageReleaseNotes>
   <PackageLicenseExpression>MIT</PackageLicenseExpression>
   <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-  <AssemblyVersion>1.1.0.0</AssemblyVersion>
-  <FileVersion>1.1.0.0</FileVersion>
-  <Version>1.1.0</Version>
+  <Version>1.1.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
