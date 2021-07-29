@@ -29,7 +29,9 @@ jobs:
       run: |
           dotnet build LockFileExtensions/LockFileExtensions.csproj -c Release
           dotnet pack LockFileExtensions/LockFileExtensions.csproj -c Release
-      
+          dotnet build FileInfoExtensions/FileInfoExtensions.csproj -c Release
+          dotnet pack FileInfoExtensions/FileInfoExtensions.csproj -c Release
+          
     - name: Push package
       run: dotnet nuget push "**/*.nupkg" --skip-duplicate --source https://nuget.pkg.github.com/Platonenkov/index.json -k ${{secrets.GITHUB_TOKEN}}     
   

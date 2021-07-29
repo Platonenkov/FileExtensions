@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks><!--net5.0;netcoreapp3.1;netstandard2.1;-->netstandard2.0;<!--net4.6.1-windows;net4.7-windows;net4.8-windows--></TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <Authors>Platonenkov</Authors>
+    <Description>Extensions for Files, Read, Write, Open, Zip, Get data, check names, generate new name</Description>
+    <Copyright>https://github.com/Platonenkov</Copyright>
+    <PackageProjectUrl>https://github.com/Platonenkov/FileExtensions</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/Platonenkov/FileExtensions</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>File Extensions , Read, Write, Open, Zip</PackageTags>
+    <PackageReleaseNotes>Extensions for Files, Read, Write, Open, Zip, Get data, check names, generate new name</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Resources\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
