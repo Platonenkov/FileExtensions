@@ -219,7 +219,7 @@ namespace System.IO
         }
 
         #endregion
-        public static Task<int> WaitAsync(this Process process, CancellationToken Cancel)
+        internal static Task<int> WaitAsync(this Process process, CancellationToken Cancel)
         {
             if (Cancel.IsCancellationRequested) return Task.FromCanceled<int>(Cancel);
 
@@ -232,7 +232,7 @@ namespace System.IO
 
             return tcs.Task;
         }
-        public static Task<T[]> WhenAll<T>(this IEnumerable<Task<T>> tasks) => Task.WhenAll<T>(tasks);
+        internal static Task<T[]> WhenAll<T>(this IEnumerable<Task<T>> tasks) => Task.WhenAll<T>(tasks);
 
     }
 }

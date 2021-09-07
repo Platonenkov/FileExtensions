@@ -19,7 +19,7 @@ get a list of blocking processes</Description>
   <PackageReleaseNotes>check if the file is locked by another program, get a list of blocking processes, netstandard2.0 support</PackageReleaseNotes>
   <PackageLicenseExpression>MIT</PackageLicenseExpression>
   <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-  <Version>1.1.1</Version>
+  <Version>1.1.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
