@@ -14,6 +14,9 @@
     <RepositoryType>GitHub</RepositoryType>
     <PackageTags>File Extensions , Read, Write, Open, Zip</PackageTags>
     <PackageReleaseNotes>Extensions for Files, Read, Write, Open, Zip, Get data, check names, generate new name</PackageReleaseNotes>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>FileInfoExtensions.pfx</AssemblyOriginatorKeyFile>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
