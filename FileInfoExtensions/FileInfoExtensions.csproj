@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks><!--net5.0;netcoreapp3.1;netstandard2.1;-->netstandard2.0;<!--net4.6.1-windows;net4.7-windows;net4.8-windows--></TargetFrameworks>
@@ -15,7 +15,7 @@
     <PackageTags>File Extensions , Read, Write, Open, Zip</PackageTags>
     <PackageReleaseNotes>Extensions for Files, Read, Write, Open, Zip, Get data, check names, generate new name</PackageReleaseNotes>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>FileInfoExtensions.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>FileInfoExtensions.snk</AssemblyOriginatorKeyFile>
     <Version>1.0.1</Version>
   </PropertyGroup>
 
