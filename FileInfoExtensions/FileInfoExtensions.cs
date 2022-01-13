@@ -217,6 +217,13 @@ namespace System.IO
             writer.Write(buffer);
         }
 
+
+        public static void WriteAllText(this FileInfo file, string text)
+        {
+            using var writer = file.CreateText();
+            return reader.Write(text);
+        }
+        
         public static FileStream Append(this FileInfo File) => File.Open(FileMode.Append, FileAccess.Write);
 
         #endregion
