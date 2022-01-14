@@ -221,7 +221,7 @@ namespace System.IO
         public static void WriteAllText(this FileInfo file, string text)
         {
             using var writer = file.CreateText();
-            return writer.Write(text);
+            writer.Write(text);
         }
         
         public static FileStream Append(this FileInfo File) => File.Open(FileMode.Append, FileAccess.Write);
